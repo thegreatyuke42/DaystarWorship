@@ -1270,7 +1270,6 @@ ul.legals li:last-child::after {
 ========================================================================== */
 
 .fullscreen-bg {
-    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -1292,13 +1291,22 @@ ul.legals li:last-child::after {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background: url('../img/hero-bg.jpg') no-repeat;
     background-size: cover;
+}
+
+.order{
+  margin-top: 30px;
 }
 
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+    }
+
+    .order{
+      margin-top: 0px;
+      background-color: #090d11;
     }
 
     .fullscreen-bg__video {

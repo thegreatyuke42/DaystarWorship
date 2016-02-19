@@ -74,7 +74,7 @@ Owl Carousel Custom CSS
 Navigation
 ========================================================================== */
 nav {
-  background-color: #2c3e50;
+  background-color: #090d11;
 }
 
 nav ul li {
@@ -106,13 +106,13 @@ Hero
 }
 
 .learn-more-btn {
-  color: #242830;
-  border: solid 2px #242830;
+  color: #1abc9c;
+  border: solid 2px #1abc9c;
 }
 
 .learn-more-btn:hover, .learn-more-btn:focus {
-  color: #1abc9c;
-  border: solid 2px #1abc9c;
+  color: #242830;
+  border: solid 2px #242830;
 }
 
 /* ==========================================================================
@@ -266,7 +266,7 @@ footer a {
 }
 
 footer {
-  background-color: #2c3e50;
+  background-color: #090d11;
 }
 
 footer p {
