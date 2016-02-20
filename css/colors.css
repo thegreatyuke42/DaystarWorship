@@ -112,7 +112,8 @@ Hero
 
 .learn-more-btn:hover, .learn-more-btn:focus {
   color: #242830;
-  border: solid 2px #242830;
+  background-color: #f3f5f8;
+  border: solid 2px #f3f5f8;
 }
 
 /* ==========================================================================

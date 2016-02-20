@@ -187,7 +187,7 @@ h2::after {
 }
 
 .inner {
-  padding-top: 170px;
+  padding-top: 90px;
 }
 
 .up-btn {
@@ -1276,6 +1276,7 @@ ul.legals li:last-child::after {
     left: 0;
     overflow: hidden;
     z-index: -100;
+    ackground: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
 }
 
 .fullscreen-bg__video {
@@ -1301,7 +1302,7 @@ ul.legals li:last-child::after {
 
 @media (max-width: 767px) {
     .fullscreen-bg {
-        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+        background: url('../img/hero-bg.jpg') center center / cover no-repeat;
     }
 
     .order{
