@@ -106,14 +106,14 @@ Hero
 }
 
 .learn-more-btn {
-  color: #1abc9c;
-  border: solid 2px #1abc9c;
+  color: #f3f5f8;
+  border: solid 2px #f3f5f8;
 }
 
 .learn-more-btn:hover, .learn-more-btn:focus {
   color: #242830;
-  background-color: #f3f5f8;
-  border: solid 2px #f3f5f8;
+  background-color: #1abc9c;
+  border: solid 2px #1abc9c;
 }
 
 /* ==========================================================================
@@ -138,6 +138,7 @@ Features
 .icon {
   color: #2c3e50;
 }
+
 
 /* ==========================================================================
 Pricing
@@ -246,9 +247,15 @@ CTA
 Team
 ========================================================================== */
 
+.social-btn{
+  color: #f3f5f8;
+}
+
 .social-btn:hover, .social-btn:focus {
   color: #1abc9c;
 }
+
+media
 
 /* ==========================================================================
 Contact
@@ -294,6 +301,18 @@ ul.legals {
 /* xGA iPad */
 
 @media screen and (max-width:1024px) {
+  .learn-more-btn{
+      color: #242830;
+      border: solid 2px #242830;
+  }
+  .learn-more-btn:hover, .learn-more-btn:focus {
+    color: #f3f5f8;
+    background-color: #1abc9c;
+    border: solid 2px #1abc9c;
+  }
+  .social-btn{
+    color: #242830;
+  }
 
 }
 
